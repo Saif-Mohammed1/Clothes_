@@ -23,7 +23,7 @@ import {
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyB81gwdB8YMBf0l0BbApbsqMX_i1eW9h9A",
-  authDomain: "clothing-db-ab425.firebaseapp.com",
+  authDomain: "https://superlative-chebakia-1f1043.netlify.app",
   projectId: "clothing-db-ab425",
   storageBucket: "clothing-db-ab425.appspot.com",
   messagingSenderId: "972915569348",
