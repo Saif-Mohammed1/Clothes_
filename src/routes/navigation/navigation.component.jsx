@@ -9,7 +9,6 @@ import { selectCurrentUser } from "../../store/user/user.selectors";
 import { selectIsCartOpen } from "../../store/cart/cart.selectors";
 
 import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
-// import { signOutUser } from '../../utils/firebase/firebase.utils';
 
 import {
   NavigationContainer,
