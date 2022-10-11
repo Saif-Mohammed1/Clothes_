@@ -16,5 +16,5 @@ In your terminal after you clone your project down, remember to run either `yarn
 
 Remember to replace the config variable in your firebase.utils.js with your own config object from the firebase dashboard! Navigate to the project settings gear icon > project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
 
-<img width="1261" alt="Screen Shot 2022-03-11 at 8 51 22 PM" src="https://github.com/Saif-Mohammed1/Clothes_Shop/blob/main/public/firebase.png">
+<img width="1261" alt="Screen Shot 2022-03-11 at 8 51 22 PM" src="https://i.stack.imgur.com/VZujI.png">
 
