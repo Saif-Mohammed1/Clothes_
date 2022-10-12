@@ -20,11 +20,11 @@ const App = () => {
   const currentUser = useSelector(selectCurrentUser);
   const isCartOpen = useSelector(selectIsCartOpen);
 
-  if (!currentUser) {
-    if (isCartOpen) {
-      dispatch(setIsCartOpen(!isCartOpen));
-    }
-  }
+  // if (!currentUser) {
+  //   if (isCartOpen) {
+  //     dispatch(setIsCartOpen(!isCartOpen));
+  //   }
+  // }
 
   useEffect(() => {
     dispatch(checkUserSession());

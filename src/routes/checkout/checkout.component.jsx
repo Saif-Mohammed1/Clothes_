@@ -41,34 +41,34 @@ const Checkout = () => {
 
   return (
     <>
-      {currentUser ? (
-        <CheckoutContainer>
-          <CheckoutHeader>
-            <HeaderBlock>
-              <span>Product</span>
-            </HeaderBlock>
-            <HeaderBlock>
-              <span>Description</span>
-            </HeaderBlock>
-            <HeaderBlock>
-              <span>Quantity</span>
-            </HeaderBlock>
-            <HeaderBlock>
-              <span>Price</span>
-            </HeaderBlock>
-            <HeaderBlock>
-              <span>Remove</span>
-            </HeaderBlock>
-          </CheckoutHeader>
-          {cartItems.map((cartItem) => (
-            <CheckoutItem key={cartItem.id} cartItem={cartItem} />
-          ))}
-          <Total>Total: ${cartTotal}</Total>
-          <PaymentForm />
-        </CheckoutContainer>
-      ) : (
+      {/* {currentUser ? ( */}
+      <CheckoutContainer>
+        <CheckoutHeader>
+          <HeaderBlock>
+            <span>Product</span>
+          </HeaderBlock>
+          <HeaderBlock>
+            <span>Description</span>
+          </HeaderBlock>
+          <HeaderBlock>
+            <span>Quantity</span>
+          </HeaderBlock>
+          <HeaderBlock>
+            <span>Price</span>
+          </HeaderBlock>
+          <HeaderBlock>
+            <span>Remove</span>
+          </HeaderBlock>
+        </CheckoutHeader>
+        {cartItems.map((cartItem) => (
+          <CheckoutItem key={cartItem.id} cartItem={cartItem} />
+        ))}
+        <Total>Total: ${cartTotal}</Total>
+        <PaymentForm />
+      </CheckoutContainer>
+      {/* ) : (
         renderSignIn()
-      )}
+      )} */}
     </>
   );
 };

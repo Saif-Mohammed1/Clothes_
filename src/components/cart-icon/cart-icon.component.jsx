@@ -17,17 +17,19 @@ const CartIcon = () => {
   const currentUser = useSelector(selectCurrentUser);
   const toggleIsCartOpen = () => dispatch(setIsCartOpen(!isCartOpen));
 
-  return currentUser ? (
+  return (
+    // currentUser ? (
     <CartIconContainer onClick={toggleIsCartOpen}>
       <ShoppingIcon className="shopping-icon" />
       <ItemCount>{cartCount}</ItemCount>
     </CartIconContainer>
-  ) : (
-    <CartIconContainer>
-      <ShoppingIcon className="shopping-icon" />
-      <ItemCount>0</ItemCount>
-    </CartIconContainer>
   );
+  // ) : (
+  //   <CartIconContainer>
+  //     <ShoppingIcon className="shopping-icon" />
+  //     <ItemCount>0</ItemCount>
+  //   </CartIconContainer>
+  // );
 };
 
 export default CartIcon;

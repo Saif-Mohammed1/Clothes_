@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CartIconContainer = styled.div`
   width: 45px;
@@ -20,4 +20,7 @@ export const ItemCount = styled.span`
   font-size: 10px;
   font-weight: bold;
   bottom: 12px;
+  @media (max-width: 460px) {
+    bottom: 0;
+  }
 `;

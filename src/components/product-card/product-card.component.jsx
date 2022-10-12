@@ -21,8 +21,7 @@ const ProductCard = ({ product }) => {
 
   const addProductToCart = () => dispatch(addItemToCart(cartItems, product));
 
-  const signUpFirst = () =>
-    alert(" Hello Sir Sign In first To Add Product To Card");
+  const signUpFirst = () => alert(" Please Sign In To Add Product To Card");
 
   return (
     <ProductCartContainer>
@@ -31,18 +30,18 @@ const ProductCard = ({ product }) => {
         <Name>{name}</Name>
         <Price>{price}</Price>
       </Footer>
-      {currentUser ? (
-        <Button
-          buttonType={BUTTON_TYPE_CLASSES.inverted}
-          onClick={addProductToCart}
-        >
+      {/* {currentUser ? ( */}
+      <Button
+        buttonType={BUTTON_TYPE_CLASSES.inverted}
+        onClick={addProductToCart}
+      >
+        Add to card
+      </Button>
+      {/* ) : */}(
+      {/* <Button buttonType={BUTTON_TYPE_CLASSES.inverted} onClick={signUpFirst}>
           Add to card
-        </Button>
-      ) : (
-        <Button buttonType={BUTTON_TYPE_CLASSES.inverted} onClick={signUpFirst}>
-          Add to card
-        </Button>
-      )}
+        </Button> */}
+      {/* )} */}
     </ProductCartContainer>
   );
 };
