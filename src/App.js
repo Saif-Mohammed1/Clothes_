@@ -25,6 +25,7 @@ const App = () => {
       dispatch(setIsCartOpen(!isCartOpen));
     }
   }
+
   useEffect(() => {
     dispatch(checkUserSession());
   }, []);
