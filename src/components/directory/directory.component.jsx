@@ -31,7 +31,7 @@ const categories = [
     id: 5,
     title: "men",
     imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
-    route: "shop/mens",
+    route: "shop/men",
   },
 ];
 

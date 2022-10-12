@@ -30,11 +30,12 @@ const Checkout = () => {
   const renderSignIn = () => {
     navigate("/auth");
 
-    if (!currentUser) {
-      if (isCartOpen) {
-        dispatch(setIsCartOpen(!isCartOpen));
-      }
-    }
+    // moved to main page (app)
+    // if (!currentUser) {
+    //   if (isCartOpen) {
+    //     dispatch(setIsCartOpen(!isCartOpen));
+    //   }
+    // }
     return <Authentication />;
   };
 

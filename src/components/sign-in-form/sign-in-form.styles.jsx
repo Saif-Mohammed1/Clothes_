@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SignInContainer = styled.div`
   display: flex;
@@ -7,6 +7,16 @@ export const SignInContainer = styled.div`
 
   h2 {
     margin: 10px 0;
+    text-align: center;
+  }
+  @media (max-width: 800px) {
+    width: 100%;
+    span {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
   }
 `;
 

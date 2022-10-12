@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const NavigationContainer = styled.div`
   height: 70px;
@@ -21,6 +21,16 @@ export const NavLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  @media (max-width: 800px) {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    flex-direction: column;
+    margin: -16px 0 0;
+    margin-right: -31px;
+  }
 `;
 
 export const NavLink = styled(Link)`
