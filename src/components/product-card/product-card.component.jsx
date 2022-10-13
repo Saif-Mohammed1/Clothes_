@@ -37,7 +37,7 @@ const ProductCard = ({ product }) => {
       >
         Add to card
       </Button>
-      {/* ) : */}(
+      {/* ) : */}
       {/* <Button buttonType={BUTTON_TYPE_CLASSES.inverted} onClick={signUpFirst}>
           Add to card
         </Button> */}
