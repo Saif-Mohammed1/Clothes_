@@ -129,7 +129,8 @@ const SHOP_DATA = [
       {
         id: 20,
         name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+        imageUrl:
+          "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?cs=srgb&dl=pexels-sindre-str%C3%B8m-1040945.jpg&fm=jpg",
         price: 90,
       },
       {
@@ -167,7 +168,7 @@ const SHOP_DATA = [
         id: 25,
         name: " Dress",
         imageUrl:
-          "https://images.pexels.com/photos/4626338/pexels-photo-4626338.jpeg?cs=srgb&dl=pexels-cottonbro-4626338.jpg&fm=jpg",
+          "https://images.pexels.com/photos/1011508/pexels-photo-1011508.jpeg?cs=srgb&dl=pexels-destiawan-nur-agustra-1011508.jpg&fm=jpg",
         price: 80,
       },
       {
